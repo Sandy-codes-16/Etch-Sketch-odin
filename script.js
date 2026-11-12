@@ -1,10 +1,13 @@
+//Selecting The Elements 
+
 const container = document.querySelector(".container");
 const gridsetter = document.querySelector("#btn");
 
+//Implementing the function to display required number of boxes with approriate size
 function generate(num) {
 
-    // Clear previous boxes
-    container.textContent = "";
+
+    container.textContent = "";//Clear the screen before drawing boxes
 
     // Generate boxes
     for (let i = 0; i < num * num; i++) {

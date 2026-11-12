@@ -2,7 +2,7 @@
     margin:0;
     padding:0;
 }
-
+/*Fixed Size of Container*/
 .container{
     height:640px;
     width:640px;
@@ -11,7 +11,7 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
+/*Default properties of box*/
 .box{
     height:40px;
     width: 40px;
